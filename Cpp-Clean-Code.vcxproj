@@ -110,13 +110,16 @@
     <ClInclude Include="Code\SOLID\UniversityRepository.h" />
     <ClInclude Include="Code\TicTacToe\TicTacToe.h" />
     <ClInclude Include="Code\Words\Words.h" />
+    <ClInclude Include="Code\Factorials\FactorialService.h" />
+    <ClInclude Include="Tests\Mocking\Manual Mock\TestManualMock.h" />
+    <ClInclude Include="Tests\Mocking\Manual Mock\MockFactorials.h" />
     <ClInclude Include="Tests\ApprovalTests.v.10.13.0.hpp" />
     <ClInclude Include="Tests\fff.h" />
     <ClInclude Include="Tests\Fixture\FactorialsFixture.h" />
-    <ClInclude Include="Tests\Fixture\FactorialWrapper.h" />
+    <ClInclude Include="Tests\Factorials\FactorialWrapper.h" />
     <ClInclude Include="Tests\Fixture\FixtureTests.h" />
-    <ClInclude Include="Tests\Mocking\Manual\ManualMockFixture.h" />
-    <ClInclude Include="Tests\Mocking\Manual\MockingTests_FP.h" />
+    <ClInclude Include="Tests\Mocking\Manual FP\ManualMockFixture.h" />
+    <ClInclude Include="Tests\Mocking\Manual FP\MockingTests_FP.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Code\Calculator\Calculator.cpp" />
@@ -130,15 +133,17 @@
     <ClCompile Include="Code\SOLID\UniversityRepository.cpp" />
     <ClCompile Include="Code\TicTacToe\TicTacToe.cpp" />
     <ClCompile Include="Code\Words\Words.cpp" />
+    <ClCompile Include="Code\Factorials\FactorialService.cpp" />
     <ClCompile Include="test.cpp" />
+    <ClCompile Include="Tests\Mocking\Manual Mock\TestManualMock.cpp" />
     <ClCompile Include="Tests\Factorials\FactorialApprovalTests.cpp" />
     <ClCompile Include="Tests\Factorials\FactorialTests.cpp" />
-    <ClCompile Include="Tests\Fixture\factorial.c" />
-    <ClCompile Include="Tests\Fixture\FactorialWrapper.cpp" />
+    <ClCompile Include="Code\C\factorial.c" />
+    <ClCompile Include="Tests\Factorials\FactorialWrapper.cpp" />
     <ClCompile Include="Tests\Fixture\FixtureTests.cpp" />
     <ClCompile Include="Tests\GildedRose\GildedRoseTests.cpp" />
-    <ClCompile Include="Tests\Mocking\Framework\MockingTests_FFF.cpp" />
-    <ClCompile Include="Tests\Mocking\Manual\MockingTests_FP.cpp" />
+    <ClCompile Include="Tests\Mocking\FFF\MockingTests_FFF.cpp" />
+    <ClCompile Include="Tests\Mocking\Manual FP\MockingTests_FP.cpp" />
     <ClCompile Include="Tests\TDD\TDDTicTacToe.cpp" />
   </ItemGroup>
   <ItemGroup>

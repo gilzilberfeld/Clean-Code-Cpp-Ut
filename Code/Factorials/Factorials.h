@@ -2,6 +2,6 @@
 class Factorials
 {
 public:
-	int Calculate(int number);
+	virtual int Calculate(int number);
 };
 

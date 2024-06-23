@@ -1,5 +1,5 @@
 #include "gtest/gtest.h"
-#include "FactorialWrapper.h"
+#include "../Factorials/FactorialWrapper.h"
 #pragma once
 class FactorialsFixture : public testing::Test
 {
