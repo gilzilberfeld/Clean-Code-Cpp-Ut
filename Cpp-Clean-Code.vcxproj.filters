@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="Code\Calculator\Calculator.cpp" />
+    <ClCompile Include="Code\Factorials\Factorials.cpp" />
+    <ClCompile Include="Tests\Factorials\FactorialTests.cpp" />
+    <ClCompile Include="Code\Words\Words.cpp" />
+    <ClCompile Include="Code\TicTacToe\TicTacToe.cpp" />
+    <ClCompile Include="Code\GildedRose\GildedRose.cpp" />
+    <ClCompile Include="Code\SOLID\Student.cpp" />
+    <ClCompile Include="Code\SOLID\StudentRepository.cpp" />
+    <ClCompile Include="Code\SOLID\StudentService.cpp" />
+    <ClCompile Include="Code\SOLID\University.cpp" />
+    <ClCompile Include="Code\SOLID\UniversityRepository.cpp" />
+    <ClCompile Include="Code\CodingByIntention\HowDidIGetHere.cpp" />
+    <ClCompile Include="Tests\GildedRose\GildedRoseTests.cpp" />
+    <ClCompile Include="Tests\Factorials\FactorialApprovalTests.cpp" />
+    <ClCompile Include="Tests\TDD\TDDTicTacToe.cpp" />
+    <ClCompile Include="Tests\Fixture\FactorialWrapper.cpp" />
+    <ClCompile Include="Tests\Fixture\FixtureTests.cpp" />
+    <ClCompile Include="Tests\Fixture\factorial.c" />
+    <ClCompile Include="Tests\Mocking\Manual\MockingTests_FP.cpp" />
+    <ClCompile Include="Tests\Mocking\Framework\MockingTests_FFF.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Code\Calculator\Calculator.h" />
+    <ClInclude Include="Code\Factorials\Factorials.h" />
+    <ClInclude Include="Code\Words\Words.h" />
+    <ClInclude Include="Code\TicTacToe\TicTacToe.h" />
+    <ClInclude Include="Code\GildedRose\GildedRose.h" />
+    <ClInclude Include="Code\GildedRose\Item.h" />
+    <ClInclude Include="Code\SOLID\NotImplementedException.h" />
+    <ClInclude Include="Code\SOLID\PackageType.h" />
+    <ClInclude Include="Code\SOLID\Student.h" />
+    <ClInclude Include="Code\SOLID\StudentRepository.h" />
+    <ClInclude Include="Code\SOLID\StudentService.h" />
+    <ClInclude Include="Code\SOLID\University.h" />
+    <ClInclude Include="Code\SOLID\UniversityRepository.h" />
+    <ClInclude Include="Code\CodingByIntention\HowDidIGetHere.h" />
+    <ClInclude Include="Tests\ApprovalTests.v.10.13.0.hpp" />
+    <ClInclude Include="Tests\Fixture\FactorialsFixture.h" />
+    <ClInclude Include="Tests\Fixture\FactorialWrapper.h" />
+    <ClInclude Include="Tests\Fixture\FixtureTests.h" />
+    <ClInclude Include="Tests\fff.h" />
+    <ClInclude Include="Tests\Mocking\Manual\ManualMockFixture.h" />
+    <ClInclude Include="Tests\Mocking\Manual\MockingTests_FP.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="libs">
+      <UniqueIdentifier>{42b328e9-93fe-4e94-ae9e-3703e6053e80}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Tests\GildedRose\GildedRoseReqs.txt" />
+  </ItemGroup>
+</Project>

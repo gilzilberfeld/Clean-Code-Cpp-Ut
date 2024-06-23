@@ -50,7 +50,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>X64;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -96,19 +96,53 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="pch.h" />
+    <ClInclude Include="Code\Calculator\Calculator.h" />
+    <ClInclude Include="Code\CodingByIntention\HowDidIGetHere.h" />
+    <ClInclude Include="Code\Factorials\Factorials.h" />
+    <ClInclude Include="Code\GildedRose\GildedRose.h" />
+    <ClInclude Include="Code\GildedRose\Item.h" />
+    <ClInclude Include="Code\SOLID\NotImplementedException.h" />
+    <ClInclude Include="Code\SOLID\PackageType.h" />
+    <ClInclude Include="Code\SOLID\Student.h" />
+    <ClInclude Include="Code\SOLID\StudentRepository.h" />
+    <ClInclude Include="Code\SOLID\StudentService.h" />
+    <ClInclude Include="Code\SOLID\University.h" />
+    <ClInclude Include="Code\SOLID\UniversityRepository.h" />
+    <ClInclude Include="Code\TicTacToe\TicTacToe.h" />
+    <ClInclude Include="Code\Words\Words.h" />
+    <ClInclude Include="Tests\ApprovalTests.v.10.13.0.hpp" />
+    <ClInclude Include="Tests\fff.h" />
+    <ClInclude Include="Tests\Fixture\FactorialsFixture.h" />
+    <ClInclude Include="Tests\Fixture\FactorialWrapper.h" />
+    <ClInclude Include="Tests\Fixture\FixtureTests.h" />
+    <ClInclude Include="Tests\Mocking\Manual\ManualMockFixture.h" />
+    <ClInclude Include="Tests\Mocking\Manual\MockingTests_FP.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Code\Calculator\Calculator.cpp" />
+    <ClCompile Include="Code\CodingByIntention\HowDidIGetHere.cpp" />
+    <ClCompile Include="Code\Factorials\Factorials.cpp" />
+    <ClCompile Include="Code\GildedRose\GildedRose.cpp" />
+    <ClCompile Include="Code\SOLID\Student.cpp" />
+    <ClCompile Include="Code\SOLID\StudentRepository.cpp" />
+    <ClCompile Include="Code\SOLID\StudentService.cpp" />
+    <ClCompile Include="Code\SOLID\University.cpp" />
+    <ClCompile Include="Code\SOLID\UniversityRepository.cpp" />
+    <ClCompile Include="Code\TicTacToe\TicTacToe.cpp" />
+    <ClCompile Include="Code\Words\Words.cpp" />
     <ClCompile Include="test.cpp" />
-    <ClCompile Include="pch.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
-    </ClCompile>
+    <ClCompile Include="Tests\Factorials\FactorialApprovalTests.cpp" />
+    <ClCompile Include="Tests\Factorials\FactorialTests.cpp" />
+    <ClCompile Include="Tests\Fixture\factorial.c" />
+    <ClCompile Include="Tests\Fixture\FactorialWrapper.cpp" />
+    <ClCompile Include="Tests\Fixture\FixtureTests.cpp" />
+    <ClCompile Include="Tests\GildedRose\GildedRoseTests.cpp" />
+    <ClCompile Include="Tests\Mocking\Framework\MockingTests_FFF.cpp" />
+    <ClCompile Include="Tests\Mocking\Manual\MockingTests_FP.cpp" />
+    <ClCompile Include="Tests\TDD\TDDTicTacToe.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <Text Include="Tests\GildedRose\GildedRoseReqs.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
