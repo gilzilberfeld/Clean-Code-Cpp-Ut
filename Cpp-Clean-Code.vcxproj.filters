@@ -24,6 +24,7 @@
     <ClCompile Include="Tests\Mocking\FFF\MockingTests_FFF.cpp" />
     <ClCompile Include="Code\Factorials\FactorialService.cpp" />
     <ClCompile Include="Tests\Mocking\Manual Mock\TestManualMock.cpp" />
+    <ClCompile Include="Tests\Mocking\GMock\TestGMock.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Code\Calculator\Calculator.h" />
@@ -50,6 +51,7 @@
     <ClInclude Include="Code\Factorials\FactorialService.h" />
     <ClInclude Include="Tests\Mocking\Manual Mock\MockFactorials.h" />
     <ClInclude Include="Tests\Mocking\Manual Mock\TestManualMock.h" />
+    <ClInclude Include="Tests\Mocking\GMock\GMockFactorials.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="libs">

@@ -111,6 +111,7 @@
     <ClInclude Include="Code\TicTacToe\TicTacToe.h" />
     <ClInclude Include="Code\Words\Words.h" />
     <ClInclude Include="Code\Factorials\FactorialService.h" />
+    <ClInclude Include="Tests\Mocking\GMock\GMockFactorials.h" />
     <ClInclude Include="Tests\Mocking\Manual Mock\TestManualMock.h" />
     <ClInclude Include="Tests\Mocking\Manual Mock\MockFactorials.h" />
     <ClInclude Include="Tests\ApprovalTests.v.10.13.0.hpp" />
@@ -135,6 +136,7 @@
     <ClCompile Include="Code\Words\Words.cpp" />
     <ClCompile Include="Code\Factorials\FactorialService.cpp" />
     <ClCompile Include="test.cpp" />
+    <ClCompile Include="Tests\Mocking\GMock\TestGMock.cpp" />
     <ClCompile Include="Tests\Mocking\Manual Mock\TestManualMock.cpp" />
     <ClCompile Include="Tests\Factorials\FactorialApprovalTests.cpp" />
     <ClCompile Include="Tests\Factorials\FactorialTests.cpp" />
