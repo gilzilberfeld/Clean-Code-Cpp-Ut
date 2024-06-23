@@ -5,18 +5,18 @@ DEFINE_FFF_GLOBALS;
 FAKE_VALUE_FUNC(int, factorial,int);
 
 
-TEST(FactorialMock_Default)
+TEST(FFF_Mocking, FactorialMock_Default)
 {
 	EXPECT_EQ(0, factorial(1));
 }
 
-TEST(FactorialMock_ChangeBehavior)
+TEST(FFF_Mocking, FactorialMock_ChangeBehavior)
 {	
 	factorial_fake.return_val = 2;
 	EXPECT_EQ(2, factorial(4));
 }
 
-TEST(FactorialMock_Reset)
+TEST(FFF_Mocking, FactorialMock_Reset)
 {
 	factorial_fake.return_val = 2;
 	EXPECT_EQ(2, factorial(4));
@@ -24,7 +24,7 @@ TEST(FactorialMock_Reset)
 	EXPECT_EQ(0, factorial(10));
 }
 
-TEST(FactorialMock_CaptureArguments)
+TEST(FFF_Mocking, FactorialMock_CaptureArguments)
 {
 	RESET_FAKE(factorial)
 	factorial_fake.return_val = 10;
@@ -35,7 +35,7 @@ TEST(FactorialMock_CaptureArguments)
 	RESET_FAKE(factorial)
 }
 
-TEST(FactorialMock_ARG_HISTORY) 
+TEST(FFF_Mocking, FactorialMock_ARG_HISTORY)
 {
 	factorial_fake.return_val = 10;
 	int returnedValue = factorial(6);

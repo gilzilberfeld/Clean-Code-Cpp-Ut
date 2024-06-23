@@ -1,10 +1,13 @@
 class FactorialService
 {
 private:
-	Factorials theFactorial;
+	Factorials* theFactorial;
 
 public:
-	FactorialService(Factorials fac);
+	FactorialService(Factorials* fac)
+	{
+		theFactorial = fac;
+	}
 
 	std::string CalculateAsString(int value);
 
