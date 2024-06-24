@@ -15,7 +15,7 @@
     <ClCompile Include="Code\SOLID\UniversityRepository.cpp" />
     <ClCompile Include="Code\CodingByIntention\HowDidIGetHere.cpp" />
     <ClCompile Include="Tests\GildedRose\GildedRoseTests.cpp" />
-    <ClCompile Include="Tests\Factorials\FactorialApprovalTests.cpp" />
+    <ClCompile Include="Tests\Approvals\FactorialApprovalTests.cpp" />
     <ClCompile Include="Tests\TDD\TDDTicTacToe.cpp" />
     <ClCompile Include="Tests\Factorials\FactorialWrapper.cpp" />
     <ClCompile Include="Tests\Fixture\FixtureTests.cpp" />
@@ -25,6 +25,11 @@
     <ClCompile Include="Code\Factorials\FactorialService.cpp" />
     <ClCompile Include="Tests\Mocking\Manual Mock\TestManualMock.cpp" />
     <ClCompile Include="Tests\Mocking\GMock\TestGMock.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\lib\native\src\gtest\gtest-all.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\lib\native\src\gmock\gmock-all.cc" />
+    <ClCompile Include="Code\Coverage\CalculatorCoverage.h" />
+    <ClCompile Include="Tests\Parameteric\FactorialTests.cpp" />
+    <ClCompile Include="Tests\Parameteric\ParametericFactorialFixture.h" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Code\Calculator\Calculator.h" />
@@ -52,6 +57,7 @@
     <ClInclude Include="Tests\Mocking\Manual Mock\MockFactorials.h" />
     <ClInclude Include="Tests\Mocking\Manual Mock\TestManualMock.h" />
     <ClInclude Include="Tests\Mocking\GMock\GMockFactorials.h" />
+    <ClInclude Include="Code\Coverage\CreditCard.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="libs">

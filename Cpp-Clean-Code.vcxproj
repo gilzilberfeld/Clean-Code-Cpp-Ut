@@ -57,6 +57,7 @@
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -98,6 +99,7 @@
   <ItemGroup>
     <ClInclude Include="Code\Calculator\Calculator.h" />
     <ClInclude Include="Code\CodingByIntention\HowDidIGetHere.h" />
+    <ClInclude Include="Code\Coverage\CreditCard.h" />
     <ClInclude Include="Code\Factorials\Factorials.h" />
     <ClInclude Include="Code\GildedRose\GildedRose.h" />
     <ClInclude Include="Code\GildedRose\Item.h" />
@@ -125,6 +127,7 @@
   <ItemGroup>
     <ClCompile Include="Code\Calculator\Calculator.cpp" />
     <ClCompile Include="Code\CodingByIntention\HowDidIGetHere.cpp" />
+    <ClCompile Include="Code\Coverage\CalculatorCoverage.h" />
     <ClCompile Include="Code\Factorials\Factorials.cpp" />
     <ClCompile Include="Code\GildedRose\GildedRose.cpp" />
     <ClCompile Include="Code\SOLID\Student.cpp" />
@@ -136,9 +139,10 @@
     <ClCompile Include="Code\Words\Words.cpp" />
     <ClCompile Include="Code\Factorials\FactorialService.cpp" />
     <ClCompile Include="test.cpp" />
+    <ClCompile Include="Tests\Parameteric\FactorialTests.cpp" />
     <ClCompile Include="Tests\Mocking\GMock\TestGMock.cpp" />
     <ClCompile Include="Tests\Mocking\Manual Mock\TestManualMock.cpp" />
-    <ClCompile Include="Tests\Factorials\FactorialApprovalTests.cpp" />
+    <ClCompile Include="Tests\Approvals\FactorialApprovalTests.cpp" />
     <ClCompile Include="Tests\Factorials\FactorialTests.cpp" />
     <ClCompile Include="Code\C\factorial.c" />
     <ClCompile Include="Tests\Factorials\FactorialWrapper.cpp" />
@@ -146,6 +150,7 @@
     <ClCompile Include="Tests\GildedRose\GildedRoseTests.cpp" />
     <ClCompile Include="Tests\Mocking\FFF\MockingTests_FFF.cpp" />
     <ClCompile Include="Tests\Mocking\Manual FP\MockingTests_FP.cpp" />
+    <ClCompile Include="Tests\Parameteric\ParametericFactorialFixture.h" />
     <ClCompile Include="Tests\TDD\TDDTicTacToe.cpp" />
   </ItemGroup>
   <ItemGroup>

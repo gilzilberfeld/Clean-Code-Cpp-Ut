@@ -1,10 +1,11 @@
 #include "gtest/gtest.h"
+#define APPROVALS_GOOGLETEST // This tells Approval Tests to provide a main() - only do this in one cpp file
 #include "../ApprovalTests.v.10.13.0.hpp"
 using namespace ApprovalTests;
 
 #include "..\..\Code\Factorials\Factorials.h"
 
-TEST(Approval_Factorial_Tests, DISABLED_Approval_Factorial_Tests)
+TEST(Approval_Factorial_Tests, DISABLEDApproval_Factorial_Tests)
 {
 	std::stringstream log;
 	Factorials factorial;
