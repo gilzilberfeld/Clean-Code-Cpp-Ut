@@ -138,7 +138,6 @@
     <ClCompile Include="Code\TicTacToe\TicTacToe.cpp" />
     <ClCompile Include="Code\Words\Words.cpp" />
     <ClCompile Include="Code\Factorials\FactorialService.cpp" />
-    <ClCompile Include="test.cpp" />
     <ClCompile Include="Tests\Parameteric\FactorialTests.cpp" />
     <ClCompile Include="Tests\Mocking\GMock\TestGMock.cpp" />
     <ClCompile Include="Tests\Mocking\Manual Mock\TestManualMock.cpp" />

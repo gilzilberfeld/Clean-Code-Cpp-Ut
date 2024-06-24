@@ -5,7 +5,7 @@ using namespace ApprovalTests;
 
 #include "..\..\Code\Factorials\Factorials.h"
 
-TEST(Approval_Factorial_Tests, DISABLEDApproval_Factorial_Tests)
+TEST(Approval_Factorial_Tests, DISABLED_Approval_Factorial_Tests)
 {
 	std::stringstream log;
 	Factorials factorial;
