@@ -113,6 +113,7 @@
     <ClInclude Include="Code\TicTacToe\TicTacToe.h" />
     <ClInclude Include="Code\Words\Words.h" />
     <ClInclude Include="Code\Factorials\FactorialService.h" />
+    <ClInclude Include="Code\Calculator\ExternalDisplay.h" />
     <ClInclude Include="Tests\Mocking\GMock\GMockFactorials.h" />
     <ClInclude Include="Tests\Mocking\Manual Mock\TestManualMock.h" />
     <ClInclude Include="Tests\Mocking\Manual Mock\MockFactorials.h" />
@@ -126,6 +127,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Code\Calculator\Calculator.cpp" />
+    <ClCompile Include="Code\Calculator\PlasmaScreen.h" />
     <ClCompile Include="Code\CodingByIntention\HowDidIGetHere.cpp" />
     <ClCompile Include="Code\Coverage\CalculatorCoverage.h" />
     <ClCompile Include="Code\Factorials\Factorials.cpp" />
