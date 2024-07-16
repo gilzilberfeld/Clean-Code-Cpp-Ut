@@ -30,6 +30,9 @@
     <ClCompile Include="Tests\Parameteric\FactorialTests.cpp" />
     <ClCompile Include="Tests\Parameteric\ParametericFactorialFixture.h" />
     <ClCompile Include="Code\Calculator\PlasmaScreen.h" />
+    <ClCompile Include="Tests\TDD\TDDFizzBuzz.cpp" />
+    <ClCompile Include="Code\Templates\TemplateExamples.cpp" />
+    <ClCompile Include="Code\Templates\InlineExample.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Code\Calculator\Calculator.h" />

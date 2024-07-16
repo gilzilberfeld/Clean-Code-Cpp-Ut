@@ -137,6 +137,8 @@
     <ClCompile Include="Code\SOLID\StudentService.cpp" />
     <ClCompile Include="Code\SOLID\University.cpp" />
     <ClCompile Include="Code\SOLID\UniversityRepository.cpp" />
+    <ClCompile Include="Code\Templates\InlineExample.cpp" />
+    <ClCompile Include="Code\Templates\TemplateExamples.cpp" />
     <ClCompile Include="Code\TicTacToe\TicTacToe.cpp" />
     <ClCompile Include="Code\Words\Words.cpp" />
     <ClCompile Include="Code\Factorials\FactorialService.cpp" />
@@ -152,6 +154,7 @@
     <ClCompile Include="Tests\Mocking\FFF\MockingTests_FFF.cpp" />
     <ClCompile Include="Tests\Mocking\Manual FP\MockingTests_FP.cpp" />
     <ClCompile Include="Tests\Parameteric\ParametericFactorialFixture.h" />
+    <ClCompile Include="Tests\TDD\TDDFizzBuzz.cpp" />
     <ClCompile Include="Tests\TDD\TDDTicTacToe.cpp" />
   </ItemGroup>
   <ItemGroup>
